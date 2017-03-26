@@ -10,5 +10,7 @@ public class Fruit {
 		this.shape=shape;
 		this.price=price;
 		this.color=color;
+		this.status=status;
+		this.id=id;	
 	}
 }
