@@ -8,7 +8,8 @@ public class Tester {
 		s1.pass=70;
 		s1.print();
 		s2.print();
-		
+		GraduateStudent gstu=new GraduateStudent(68,85,89);
+		gstu.print();
 
 	}
 

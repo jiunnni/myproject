@@ -5,6 +5,8 @@ int english;
 int math;
 int chinese;
 static int pass=60;
+Student(){
+}
 static{
 	System.out.println("static");
 	System.out.println("pass");
@@ -19,6 +21,8 @@ public void print(){
 	System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese)+"\t");
 	
 }
+
+
 private String getScore(int score){
 	if (score<pass){
 		return String.valueOf(score)+"*";
