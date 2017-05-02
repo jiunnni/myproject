@@ -4,13 +4,22 @@ public class Ticket {
 	int id;
 String name;
 String price;
-public void setId(int k){
-	id=k;
+public void setId(int id){
+	this.id=id;
 }
-	public void setName(String h){
-		name=h;
+public int getId(){
+	return id;
+}
+	public void setName(String name){
+	this.name=name;
 	}
-	public void setPrice(int j){
-	price=j;
+	public String getName(){
+		return name;
+	}
+	public void setPrice(String price){
+	this.price=price;
+	}
+	public String getPrice(){
+		return price;
 }
 }

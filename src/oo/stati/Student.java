@@ -23,7 +23,8 @@ public void print(){
 }
 
 
-private String getScore(int score){
+protected String getScore(int score){
+	//自己跟繼承
 	if (score<pass){
 		return String.valueOf(score)+"*";
 	}else{
@@ -31,3 +32,4 @@ private String getScore(int score){
 	}
 }
 }
+//PRIVATE 自己

@@ -8,8 +8,11 @@ public class Car {
 	int status;
 	int id;
 	float milage;
-	public Car(String name,String name);
-	this(brand,name,0);
+	public Car(){
+	
+	}
+	public Car(String brand,String name){
+	this(brand,name,0);}
 	public Car (String brand, String name,int cc){
 		
 		this.brand=brand;
