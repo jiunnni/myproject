@@ -1,10 +1,15 @@
 package oo.test;
 
 import oo.abstraction.Car;
+import oo.stati.Student;
+
 import java.util.ArrayList;
 public class Tester {
 
 	public static void main(String[] args) {
+		Student stu=new Student();
+		System.out.println(stu);
+		
 		Car c = new Car("xx", "name", 2000);
 ArrayList<String> a = new ArrayList();
 //String[]numbers = {"331,"821","886","554"}

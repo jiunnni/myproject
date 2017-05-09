@@ -5,3 +5,4 @@ public Truck(String brand,int cc,String name){
 this.brand=brand;
 
 }
+}

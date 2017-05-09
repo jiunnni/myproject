@@ -5,7 +5,7 @@ int english;
 int math;
 int chinese;
 static int pass=60;
-Student(){
+public Student(){
 }
 static{
 	System.out.println("static");
@@ -31,5 +31,14 @@ protected String getScore(int score){
 		return String.valueOf(score);
 	}
 }
-}
+
 //PRIVATE ¦Û¤v
+@Override
+public String toString(){
+	return
+			"eng:"+english+"\n"+
+			"chinese:"+chinese+"\n"+
+			"math:"+math;
+
+}
+}
